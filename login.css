@@ -1,0 +1,53 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(133,231,175,1) 66%);
+}
+
+#loginform{
+    width: 400px;
+    height: 400px;
+    margin:15vh auto 0 auto;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 20px;
+    padding: 20px 20px 30px 30px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.input-group{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.input-group input{
+    padding-left: 10px;
+}
+
+.account{
+    margin: 20px;
+    text-align: center;
+}
+
+#loginform button{
+    width: 100%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    color: white;
+    text-decoration: none;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-color:rgb(238,174,202) ;
+}
+
+#loginform button:hover{
+    background-color: rgb(238, 142, 184);
+    color: wheat;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand{
+    color: white;
+    font-style: bold;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.container{
+    min-height: 70vh;
+}
+
+.movie-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+.movie-search{
+    margin: 2rem 0;
+}
+
+.movie-search cite{
+    font-size: 1rem;
+}
+
+.movie-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.search-control,
+.search-btn{
+    width: 100%;
+}
+
+.recipe-btn{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 175px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.header li{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(250, 250, 250);
+    padding-right: 50px ;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.footer-container{
+    padding: 30px;
+    background-color: black;
+    color: white ;
+    text-align: center;
+    
+}

@@ -1,0 +1,50 @@
+body{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(133,231,175,1) 66%);
+}
+
+#form{
+    width: 400px;
+    margin:10vh auto 0 auto;
+    background-color: rgba(0, 0, 0,0.2);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(8, 0, 0);
+    padding: 20px;
+}
+
+#form button{
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    border-color:rgb(248, 246, 247);
+}
+
+#form button:hover{
+    background-color: rgb(238, 149, 187);
+    color: wheat;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.account{
+    margin: 20px;
+    text-align: center;
+}
+
+input{
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+}
