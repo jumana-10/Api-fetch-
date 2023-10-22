@@ -1,20 +1,23 @@
 body{
-    background: rgb(238,174,202);
-    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(133,231,175,1) 66%);
+    background-color: rgb(234, 229, 229);
+    color: whitesmoke;
+    font-size: 20px;
 }
 
 #form{
     width: 400px;
-    margin:10vh auto 0 auto;
-    background-color: rgba(0, 0, 0,0.2);
+    margin:5vh auto 0 auto;
+    background-color: rgba(0,0,0,0.7);
     border-radius: 20px;
     padding: 30px;
 }
 
 h1{
     text-align: center;
-    color: rgb(8, 0, 0);
+    color: rgb(255, 254, 254);
     padding: 20px;
+    font-size: 45px;
+    font-weight: bold;
 }
 
 #form button{
@@ -29,7 +32,7 @@ h1{
 }
 
 #form button:hover{
-    background-color: rgb(238, 149, 187);
+    background-color: rgb(37, 76, 234);
     color: wheat;
 }
 

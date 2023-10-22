@@ -48,9 +48,11 @@ body{
     align-items: stretch;
 }
 
-.search-control,
-.search-btn{
-    width: 100%;
+.search-control{
+    width: 600px;
+    margin-left: 250px;
+    border-radius: 10px;
+    padding-left: 10px;
 }
 
 .recipe-btn{
